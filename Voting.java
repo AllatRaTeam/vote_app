@@ -1,12 +1,13 @@
 
 public class Voiting{
   
-  String title;
+  private String title;
   
-  List<Candidate> candidate;
+  private List<Candidate> candidats;
   
   public Voiting (String title, List<Candidate> candidats){
-    
+    this.title = title;
+    this.candidats = candidats;
   }
 
   
