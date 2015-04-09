@@ -1,7 +1,12 @@
+
+
 public class VotingSystem{
-  List<User> users;
-  Voting currentVoting;
-  User currentUser;
+  
+  private List<User> users;
+  
+  private Voting currentVoting;
+  
+  private User currentUser;
   
   public static void main(String[] args){
     
