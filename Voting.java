@@ -3,6 +3,13 @@ public class Voiting{
   
   String title;
   
+  List<Candidate> candidate;
+  
+  public Voiting (String title, List<Candidate> candidats){
+    
+  }
+
+  
   /*public class Candidats<E> implements List<E> {
  
     private Node<E> node;
@@ -129,7 +136,4 @@ public class Voiting{
     }
   }*/
   
-  public Voiting (String title, ){
-    
-  }
 }
